@@ -1,4 +1,6 @@
-import java.util.ArrayList;
+package N1EX1_Test;
+
+import N1EX1.N1EX1;
 import org.junit.Test;
 import org.junit.Assert;
 

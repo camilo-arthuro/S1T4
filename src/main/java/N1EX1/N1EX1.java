@@ -1,3 +1,5 @@
+package N1EX1;
+
 import java.util.ArrayList;
 
 public class N1EX1 {
