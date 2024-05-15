@@ -3,9 +3,6 @@ import java.util.ArrayList;
 public class N1EX1 {
 
     public ArrayList<String> months(){
-        /*Crea una clase Java que inserte en una lista ordenada los nombres de los meses del año.
-        Verifica con jUnit que la lista tiene 12 posiciones, que no es nula y que en su posición 8
-        contiene el nombre 'agosto'*/
         // Create the list
         ArrayList<String> monthsList = new ArrayList<>();
 
