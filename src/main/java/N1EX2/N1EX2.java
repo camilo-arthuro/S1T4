@@ -9,23 +9,18 @@ public class N1EX2 {
 
     public static void runProgram(){
         int dni1 = 12345678;
-        String letterDni1 = "";
+        String letterDni = "";
         N1EX2 exercise = new N1EX2();
         ArrayList<Integer> dniList = exercise.dniList();
 
-        letterDni1 = calculoDni(dni1);
-        System.out.println("El DNI es " + dni1 + "-" + letterDni1);
-
         for (int i = 0; i < dniList.size(); i++) {
-            letterDni1 = calculoDni(dniList.get(i));
-            System.out.println("DNI: " + dniList.get(i) + "-" + letterDni1);
+            letterDni = calculoDni(dniList.get(i));
+            System.out.println("DNI: " + dniList.get(i) + "-" + letterDni);
         }
-
-
     }
 
-    public ArrayList<Integer> dniList(){
-        ArrayList<Integer> numList = new ArrayList<>();
+    public static ArrayList<Integer> dniList(){
+        final ArrayList<Integer> numList = new ArrayList<>();
 
         numList.add(12345678);
         numList.add(87654321);
