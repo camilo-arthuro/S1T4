@@ -1,4 +1,4 @@
-package N1EX3_Test;
+package N1EX3;
 
 public class N1EX3 {
     public static void runProgram(){

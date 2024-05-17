@@ -1,5 +1,6 @@
 package N1EX3_Test;
 
+import N1EX3.N1EX3;
 import org.junit.Test;
 
 public class N1EX3_Test {
